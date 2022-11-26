@@ -40,6 +40,15 @@ class MyApp extends StatelessWidget {
           listTileTheme: const ListTileThemeData(contentPadding: EdgeInsets.zero),
           cardTheme: CardTheme(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10))),
           errorColor: ColorsItems.porchase,
+          inputDecorationTheme: const InputDecorationTheme(
+            filled: true,
+            fillColor: Colors.grey,
+            iconColor: Colors.black,
+            border: OutlineInputBorder(),
+            labelStyle: TextStyle(color: Colors.black, fontSize: 24, fontWeight: FontWeight.w400),
+            floatingLabelStyle: TextStyle(color: Colors.black, fontSize: 18),
+            contentPadding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+          ),
           appBarTheme: const AppBarTheme(
               centerTitle: true,
               // backgroundColor: Colors.blue,
