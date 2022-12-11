@@ -10,6 +10,9 @@ import 'package:flutter_learn/101/custom_widget_learn.dart';
 import 'package:flutter_learn/101/icon_learn.dart';
 import 'package:flutter_learn/101/image_learn.dart';
 import 'package:flutter_learn/101/list_tile_learn.dart';
+import 'package:flutter_learn/101/list_view_builder.dart';
+import 'package:flutter_learn/101/list_view_learn.dart';
+import 'package:flutter_learn/101/navigation_learn.dart';
 import 'package:flutter_learn/101/padding_learn.dart';
 import 'package:flutter_learn/101/page_view_learn.dart';
 import 'package:flutter_learn/101/scaffold_learn.dart';
@@ -19,6 +22,9 @@ import 'package:flutter_learn/101/statefull_life_cycle_learn.dart';
 import 'package:flutter_learn/101/stateless_learn.dart';
 import 'package:flutter_learn/101/text_field_learn.dart';
 import 'package:flutter_learn/101/text_learn_view.dart';
+import 'package:flutter_learn/demos/color_demos_view.dart';
+import 'package:flutter_learn/demos/color_life_cycle_view.dart';
+import 'package:flutter_learn/demos/my_collection_demos.dart';
 import 'package:flutter_learn/demos/note_demos_view.dart';
 import 'package:flutter_learn/101/indicator_learn.dart';
 import 'package:flutter_learn/demos/stack_demo_view.dart';
@@ -55,7 +61,7 @@ class MyApp extends StatelessWidget {
               elevation: 0,
               systemOverlayStyle: SystemUiOverlayStyle.light,
               backgroundColor: Colors.transparent)),
-      home: const TextFieldLearn(),
+      home: const NavigationLearn(),
     );
   }
 }
