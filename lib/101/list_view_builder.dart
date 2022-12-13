@@ -19,7 +19,7 @@ class _ListViewBuilderLearnState extends State<ListViewBuilderLearn> {
         itemBuilder: (context, index) {
           return SizedBox(
             height: 200,
-            child: Column(children: [Expanded(child: Image.network('https://picsum.photos/200')), Text('$index')]),
+            child: Column(children: [Expanded(child: Image.network('https://picsum.photos/200')), Text('data')]),
           );
         },
         itemCount: 10,
